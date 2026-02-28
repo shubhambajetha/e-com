@@ -110,6 +110,10 @@ ecommerce-app/
 ```bash
 npm --prefix frontend install
 npm --prefix backend install
+
+npm run dev:frontend   # starts Next on :3000
+npm run dev:backend    # starts Express on :5000
+npm --prefix backend install
 npm run dev:frontend
 npm run dev:backend
 ```
